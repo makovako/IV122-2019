@@ -9,8 +9,8 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] D - Vizualizace nsd
 - [ ] 2 - Kombinatorika - vypocty
   - [X] A - Kombinace, permutace, variace
-  - [ ] B - Pascalov trojuholnik
-  - [ ] C - Vypocet pi
+  - [X] B - Pascalov trojuholnik
+  - [X] C - Vypocet pi
   - [ ] D - Umocnovani
 - [ ] 3 - Geometrie, zelvi grafika
   - [ ] A - Zelvi grafika
