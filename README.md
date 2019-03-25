@@ -5,10 +5,10 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 - [ ] 1 - Rozcvicka
   - [X] A - Hratky s cisly
   - [ ] B - Prace s grafikou
-  - [ ] C - Ulamova spirala
+  - [X] C - Ulamova spirala
   - [ ] D - Vizualizace nsd
 - [ ] 2 - Kombinatorika - vypocty
-  - [ ] A - Kompinace, permutace, variaze
+  - [X] A - Kombinace, permutace, variace
   - [ ] B - Pascalov trojuholnik
   - [ ] C - Vypocet pi
   - [ ] D - Umocnovani
