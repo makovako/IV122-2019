@@ -13,7 +13,7 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [X] C - Vypocet pi
   - [ ] D - Umocnovani
 - [ ] 3 - Geometrie, zelvi grafika
-  - [ ] A - Zelvi grafika
+  - [X] A - Zelvi grafika
   - [ ] B - Relativne, absolutne
   - [ ] C - Zelvi grafika, fraktaly
   - [ ] D - Kreativita zelvy
