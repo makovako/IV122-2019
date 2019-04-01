@@ -4,7 +4,7 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 # TODO
 - [ ] 1 - Rozcvicka
   - [X] A - Hratky s cisly
-  - [ ] B - Prace s grafikou
+  - [X] B - Prace s grafikou
   - [X] C - Ulamova spirala
   - [ ] D - Vizualizace nsd
 - [ ] 2 - Kombinatorika - vypocty
@@ -30,3 +30,7 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] A - Chaos game
   - [ ] B - Feigenbaumuv diagram
   - [ ] C - L - systemy
+- [ ] 7 - Fraktaly, komplexni cisla
+  - [ ] Newton
+  - [ ] Mandelbrot
+  - [ ] Julian
