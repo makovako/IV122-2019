@@ -30,7 +30,7 @@ def draw_bush(size):
     for i in {2,3,4,5,6,7}:
         t = Turtle()
         bush(t,i,size)
-        t.save_to_file("bush_{}.svg".format(i),2*size,2*size)
+        t.save_to_file("bush_{}.svg".format(i),size,2*size,(2*size,2*size))
 
 draw_sierpinski(200)
 draw_bush(200)
