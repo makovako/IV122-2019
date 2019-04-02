@@ -14,7 +14,7 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] D - Umocnovani
 - [ ] 3 - Geometrie, zelvi grafika
   - [X] A - Zelvi grafika
-  - [ ] B - Relativne, absolutne
+  - [X] B - Relativne, absolutne
   - [ ] C - Zelvi grafika, fraktaly
   - [ ] D - Kreativita zelvy
 - [ ] 4 - Geometrie, bitmapova grafika
