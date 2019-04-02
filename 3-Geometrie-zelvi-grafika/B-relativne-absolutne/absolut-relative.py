@@ -20,7 +20,7 @@ def pentagon_absolut():
     points.append((s2*zoom+move,-c2*zoom+move))
     points.append((s1*zoom+move,c1*zoom+move))
 
-    vg = vector_graphic("pentagon_absolut.svg")
+    vg = vector_graphic("pentagon_absolut.svg",200,200)
     vg.start()
     for i in range(5):
         for j in range(i+1,5):
@@ -42,13 +42,16 @@ def pentagon_relative():
     for _ in range(5):
         t.forward(star_length)
         t.left(star_angle)
-    t.save_to_file("pentagon_relative.svg")
+    t.save_to_file("pentagon_relative.svg",2*pentagon_length,2*pentagon_length,(4*pentagon_length,4*pentagon_length))
 
 # recursive square - absolute
 
 def recursive_square(size = 100):
-    points = [(0,0),(size,0),(size,size),(0,size)]
-    vg = vector_graphic("recursive_square.svg")
+    base = size/2
+    # points of the biggest square
+    # base is used just to move it from 0,0
+    points = [(base,base),(base+size,base),(base+size,base+size),(base,base+size)]
+    vg = vector_graphic("recursive_square.svg",2*size,2*size)
     vg.start()
     for _ in range(20):
         new_points = []
@@ -94,7 +97,7 @@ def triangle_in_triangle(step = 10):
         t.penup()
         t.forward(step)
         t.pendown()
-    t.save_to_file("triangle.svg",10*step,10*step)
+    t.save_to_file("triangle.svg",10*step,10*step,(20*step,20*step))
 
 # flower - relative
 
@@ -106,7 +109,7 @@ def flower():
             t.forward(360/n)
             t.right(360/n)
         t.right(360/n)
-    t.save_to_file("flower.svg")
+    t.save_to_file("flower.svg",150,150,(300,300))
 
 
 pentagon_absolut()

@@ -17,7 +17,7 @@ class Turtle(object):
             self.angle += CIRCLE_ANGLE
     
     def right(self, angle):
-        self.angle = (self.angle - angle) % CIRCLE_ANGLE
+        self.angle = (self.angle + angle) % CIRCLE_ANGLE
     
     def forward(self, distance):
         dx = (sin(radians(self.angle))) * distance
@@ -39,8 +39,11 @@ class Turtle(object):
         self.pen = True
 
     # offset - move lines by offset
-    def save_to_file(self, filename, off_x = 150, off_y = 150):
-        vg = vector_graphic(filename)
+    def save_to_file(self, filename, off_x = 150, off_y = 150, canvas_size=(0,0)):
+        if canvas_size[0] > 0 and canvas_size[1] > 0:
+            vg = vector_graphic(filename,canvas_size[0],canvas_size[1])
+        else:
+            vg = vector_graphic(filename)
         vg.start()
         for x1,y1,x2,y2 in self.lines:
             vg.line(x1 + off_x, y1 + off_y, x2 + off_x, y2 + off_y)
