@@ -15,10 +15,10 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 - [ ] 3 - Geometrie, zelvi grafika
   - [X] A - Zelvi grafika
   - [X] B - Relativne, absolutne
-  - [ ] C - Zelvi grafika, fraktaly
+  - [ ] C - Zelvi grafika, fraktaly **NF**
   - [ ] D - Kreativita zelvy
 - [ ] 4 - Geometrie, bitmapova grafika
-  - [ ] A - Zakladni utvari
+  - [ ] A - Zakladni utvari **NF**
   - [ ] B - Mnohouhelnik
   - [ ] C - Efekty
   - [ ] D - Skryvacky
@@ -34,3 +34,8 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] Newton
   - [ ] Mandelbrot
   - [ ] Julian
+- [ ] Transformace v rovine
+  - [ ] Afinni transformace
+  - [ ] MRCM
+
+/* NF - started, not finnished
