@@ -31,10 +31,10 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] B - Feigenbaumuv diagram
   - [ ] C - L - systemy
 - [ ] 7 - Fraktaly, komplexni cisla
-  - [ ] Newton
+  - [X] Newton
   - [ ] Mandelbrot
   - [ ] Julian
-- [ ] Transformace v rovine
+- [ ] 8 - Transformace v rovine
   - [ ] Afinni transformace
   - [ ] MRCM
 
