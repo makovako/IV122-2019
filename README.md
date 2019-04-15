@@ -32,7 +32,7 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] C - L - systemy
 - [ ] 7 - Fraktaly, komplexni cisla
   - [X] Newton
-  - [ ] Mandelbrot
+  - [X] Mandelbrot
   - [ ] Julian
 - [ ] 8 - Transformace v rovine
   - [ ] Afinni transformace
