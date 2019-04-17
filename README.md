@@ -1,6 +1,10 @@
 # IV122-2019
 Repository for Homeworks for subject IV122 Math and Programing in spring 2019, Marek Valko, 433656
 
+# Presentation / Review
+
+Tasks which are checked out are finnished. There shoud be readme in corresponding folders for pictures.
+
 # TODO
 - [ ] 1 - Rozcvicka
   - [X] A - Hratky s cisly
@@ -27,7 +31,7 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
   - [ ] B - Triangulace
   - [ ] C - Konvexni obal
 - [ ] 6 - Fraktaly, chaos
-  - [ ] A - Chaos game
+  - [X] A - Chaos game
   - [ ] B - Feigenbaumuv diagram
   - [ ] C - L - systemy
 - [ ] 7 - Fraktaly, komplexni cisla
@@ -37,5 +41,10 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 - [ ] 8 - Transformace v rovine
   - [ ] Afinni transformace
   - [ ] MRCM
+- [ ] 9 - Pravdepodobnost
+  - [ ] A - Monty Hall
+  - [ ] B - Nenahodna cisla
+  - [ ] C - Centralni limitni veta
+  - [ ] D - Bayesova veta
 
 /* NF - started, not finnished
