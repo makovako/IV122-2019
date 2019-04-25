@@ -32,12 +32,12 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] C - Konvexni obal
 - [ ] 6 - Fraktaly, chaos
   - [X] A - Chaos game
-  - [ ] B - Feigenbaumuv diagram
+  - [X] B - Feigenbaumuv diagram
   - [ ] C - L - systemy
-- [ ] 7 - Fraktaly, komplexni cisla
+- [X] 7 - Fraktaly, komplexni cisla
   - [X] Newton
   - [X] Mandelbrot
-  - [ ] Julian
+  - [X] Julian
 - [ ] 8 - Transformace v rovine
   - [ ] Afinni transformace
   - [ ] MRCM
