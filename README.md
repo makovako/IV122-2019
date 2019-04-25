@@ -30,10 +30,10 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] A - Prusecniky usecek
   - [ ] B - Triangulace
   - [ ] C - Konvexni obal
-- [ ] 6 - Fraktaly, chaos
+- [X] 6 - Fraktaly, chaos
   - [X] A - Chaos game
   - [X] B - Feigenbaumuv diagram
-  - [ ] C - L - systemy
+  - [X] C - L - systemy
 - [X] 7 - Fraktaly, komplexni cisla
   - [X] Newton
   - [X] Mandelbrot
