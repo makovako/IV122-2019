@@ -1,0 +1,17 @@
+<svg width="30.0" height="30.0" xmlns="http://www.w3.org/2000/svg">
+<line x1="0" y1="30.0" x2="0.0" y2="20.0" stroke="black" stroke-width="1"/>
+<line x1="0.0" y1="20.0" x2="10.0" y2="20.0" stroke="black" stroke-width="1"/>
+<line x1="10.0" y1="20.0" x2="10.000000000000002" y2="30.0" stroke="black" stroke-width="1"/>
+<line x1="10.000000000000002" y1="30.0" x2="20.0" y2="30.0" stroke="black" stroke-width="1"/>
+<line x1="20.0" y1="30.0" x2="30.0" y2="30.0" stroke="black" stroke-width="1"/>
+<line x1="30.0" y1="30.0" x2="30.0" y2="20.0" stroke="black" stroke-width="1"/>
+<line x1="30.0" y1="20.0" x2="20.0" y2="20.0" stroke="black" stroke-width="1"/>
+<line x1="20.0" y1="20.0" x2="20.0" y2="10.0" stroke="black" stroke-width="1"/>
+<line x1="20.0" y1="10.0" x2="30.0" y2="10.0" stroke="black" stroke-width="1"/>
+<line x1="30.0" y1="10.0" x2="30.0" y2="0.0" stroke="black" stroke-width="1"/>
+<line x1="30.0" y1="0.0" x2="20.0" y2="3.552713678800501e-15" stroke="black" stroke-width="1"/>
+<line x1="20.0" y1="3.552713678800501e-15" x2="10.0" y2="7.105427357601002e-15" stroke="black" stroke-width="1"/>
+<line x1="10.0" y1="7.105427357601002e-15" x2="10.000000000000002" y2="10.000000000000007" stroke="black" stroke-width="1"/>
+<line x1="10.000000000000002" y1="10.000000000000007" x2="1.7763568394002505e-15" y2="10.00000000000001" stroke="black" stroke-width="1"/>
+<line x1="1.7763568394002505e-15" y1="10.00000000000001" x2="1.7763568394002505e-15" y2="1.0658141036401503e-14" stroke="black" stroke-width="1"/>
+</svg>
