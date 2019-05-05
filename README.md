@@ -42,9 +42,11 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] Afinni transformace
   - [ ] MRCM
 - [ ] 9 - Pravdepodobnost
-  - [ ] A - Monty Hall
+  - [X] A - Monty Hall
   - [ ] B - Nenahodna cisla
   - [ ] C - Centralni limitni veta
   - [ ] D - Bayesova veta
-
+- [ ] 10 - Analyza dat
+  - [ ] A - Linearni regrese
+  - [ ] B - Detekce shluku
 /* NF - started, not finnished
