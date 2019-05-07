@@ -43,9 +43,9 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] MRCM
 - [ ] 9 - Pravdepodobnost
   - [X] A - Monty Hall
-  - [ ] B - Nenahodna cisla **NF**
+  - [ ] B - Nenahodna cisla **NF** - ostali 2 na vyber
   - [ ] C - Centralni limitni veta **NF** - rozmyslet matematicky
-  - [ ] D - Bayesova veta
+  - [ ] D - Bayesova veta **NF** - spisat odhad
 - [ ] 11 - Analyza dat
   - [ ] A - Linearni regrese
   - [ ] B - Detekce shluku
