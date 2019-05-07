@@ -39,14 +39,17 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [X] Mandelbrot
   - [X] Julian
 - [ ] 8 - Transformace v rovine
-  - [ ] Afinni transformace
+  - [X] Afinni transformace
   - [ ] MRCM
 - [ ] 9 - Pravdepodobnost
   - [X] A - Monty Hall
   - [ ] B - Nenahodna cisla
   - [ ] C - Centralni limitni veta
   - [ ] D - Bayesova veta
-- [ ] 10 - Analyza dat
+- [ ] 11 - Analyza dat
   - [ ] A - Linearni regrese
   - [ ] B - Detekce shluku
+- [ ] 12 - Grafy a bludiste I
+  - [ ] A - Ciselne bludiste
+  - [ ] B - Vlastne bludiste
 /* NF - started, not finnished
