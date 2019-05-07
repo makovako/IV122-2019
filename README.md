@@ -44,7 +44,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 - [ ] 9 - Pravdepodobnost
   - [X] A - Monty Hall
   - [ ] B - Nenahodna cisla **NF**
-  - [ ] C - Centralni limitni veta
+  - [ ] C - Centralni limitni veta **NF** - rozmyslet matematicky
   - [ ] D - Bayesova veta
 - [ ] 11 - Analyza dat
   - [ ] A - Linearni regrese
