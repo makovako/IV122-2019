@@ -43,7 +43,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] MRCM
 - [ ] 9 - Pravdepodobnost
   - [X] A - Monty Hall
-  - [ ] B - Nenahodna cisla
+  - [ ] B - Nenahodna cisla **NF**
   - [ ] C - Centralni limitni veta
   - [ ] D - Bayesova veta
 - [ ] 11 - Analyza dat
