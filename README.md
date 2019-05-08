@@ -48,7 +48,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] D - Bayesova veta **NF** - spisat odhad
 - [ ] 11 - Analyza dat
   - [X] A - Linearni regrese
-  - [ ] B - Detekce shluku
+  - [ ] B - Detekce shluku **NF** - simulovat data, pokazit init centroidy
 - [ ] 12 - Grafy a bludiste I
   - [ ] A - Ciselne bludiste
   - [ ] B - Vlastne bludiste
