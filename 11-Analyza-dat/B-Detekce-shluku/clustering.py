@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from heapq import nsmallest
+import numpy as np
 
 def read_data(filename):
     x = []
@@ -54,19 +55,97 @@ def kmeans(x,y,k,foldername):
         counter += 1
         if not changed:
             break
-        
-        
+
+# sort points based on distance from point
+def worsen_centroids(x,y,point):
+    points = list(zip(x,y)) # make list of pairs
+    points.sort(key = lambda p: (p[0] - point[0])**2 + (p[1] - point[1])**2) # distance as function for sort, no sqrt because it doesn't change solution
+    return (list(p) for p in zip(*points)) # make tuple of lists back from list of points
+    
+def normalize_data(x,y):
+    avg_x = sum(x)/len(x)
+    avg_y = sum(y)/len(y)
+    return [x/avg_x for x in x],[y/avg_y for y in y]
+
+# points - where the clusters should be located (centroids from which to generate) (list of lists)
+# error - number for normal distribution error
+# samples - how meny points per cluster
+def generate_data(points, error, samples):
+    out = []
+    for point in points:
+        out.append(point)
+        for _ in range(samples):
+            out.append([point[0] + np.random.normal(0,error), point[1] + np.random.normal(0,error)]) # store point witch adjustment
+    return (list(p) for p in zip(*out))
 
 
+# default runs
+
+#if you want to create pictures, uncomment for loop generating them
+# and crete directories for pictures in advance
 
 x,y = read_data("faithful.txt")
-# normalize data
-avg_x = sum(x)/len(x)
-avg_y = sum(y)/len(y)
-x = [x/avg_x for x in x]
-y = [y/avg_y for y in y]
+x,y = normalize_data(x,y)
 # for i in range(1,6):
     # kmeans(x,y,i,"faithful-k-{}".format(i))
 
-# TODO create bad first centroids
-# put points with smallest x's to the front of the list
+# worsen runs - when centroid are next to each other
+x,y = read_data("faithful.txt")
+# get left most vertex
+index = x.index(min(x))
+x,y = worsen_centroids(x,y,(x[index],y[index]))
+x,y = normalize_data(x,y)
+# for i in range(1,6):
+#     kmeans(x,y,i,"faithful-worsen-k-{}".format(i))
+
+# generate different number of clusters for different k values
+# centroids in k means algorithm will be close to each other, so its worsen case
+# generate 2 clusters
+
+centroids = [
+    [10,10],
+    [50,50]
+]
+x,y = generate_data(centroids, 5, 30)
+x,y = normalize_data(x,y)
+for i in range(1,6):
+    kmeans(x,y,i,"generated-2-k-{}".format(i))
+
+#generate 3 clusters
+centroids = [
+    [10,10],
+    [50,10],
+    [25,50]
+]
+x,y = generate_data(centroids, 5, 30)
+x,y = normalize_data(x,y)
+for i in range(1,6):
+    kmeans(x,y,i,"generated-3-k-{}".format(i))
+
+# generate 4 clusters
+centroids = [
+    [10,10],
+    [10,50],
+    [50,50],
+    [50,10]
+]
+
+x,y = generate_data(centroids, 5, 30)
+x,y = normalize_data(x,y)
+for i in range(1,6):
+    kmeans(x,y,i,"generated-4-k-{}".format(i))
+
+# generate 5 clusters
+
+centroids = [
+    [10,10],
+    [10,50],
+    [50,50],
+    [50,10],
+    [25,25]
+]
+x,y = generate_data(centroids, 5, 30)
+x,y = normalize_data(x,y)
+for i in range(1,6):
+    kmeans(x,y,i,"generated-5-k-{}".format(i))
+
