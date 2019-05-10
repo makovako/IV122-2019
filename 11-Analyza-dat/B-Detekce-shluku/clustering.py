@@ -108,8 +108,8 @@ centroids = [
 ]
 x,y = generate_data(centroids, 5, 30)
 x,y = normalize_data(x,y)
-for i in range(1,6):
-    kmeans(x,y,i,"generated-2-k-{}".format(i))
+# for i in range(1,6):
+#     kmeans(x,y,i,"generated-2-k-{}".format(i))
 
 #generate 3 clusters
 centroids = [
@@ -119,8 +119,8 @@ centroids = [
 ]
 x,y = generate_data(centroids, 5, 30)
 x,y = normalize_data(x,y)
-for i in range(1,6):
-    kmeans(x,y,i,"generated-3-k-{}".format(i))
+# for i in range(1,6):
+#     kmeans(x,y,i,"generated-3-k-{}".format(i))
 
 # generate 4 clusters
 centroids = [
@@ -132,8 +132,8 @@ centroids = [
 
 x,y = generate_data(centroids, 5, 30)
 x,y = normalize_data(x,y)
-for i in range(1,6):
-    kmeans(x,y,i,"generated-4-k-{}".format(i))
+# for i in range(1,6):
+#     kmeans(x,y,i,"generated-4-k-{}".format(i))
 
 # generate 5 clusters
 
@@ -146,6 +146,6 @@ centroids = [
 ]
 x,y = generate_data(centroids, 5, 30)
 x,y = normalize_data(x,y)
-for i in range(1,6):
-    kmeans(x,y,i,"generated-5-k-{}".format(i))
+# for i in range(1,6):
+#     kmeans(x,y,i,"generated-5-k-{}".format(i))
 
