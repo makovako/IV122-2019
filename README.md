@@ -23,7 +23,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] D - Kreativita zelvy
 - [ ] 4 - Geometrie, bitmapova grafika
   - [ ] A - Zakladni utvari **NF**
-  - [ ] B - Mnohouhelnik
+  - [ ] B - Mnohouhelnik **NF** - make explanation in readme
   - [ ] C - Efekty
   - [ ] D - Skryvacky
 - [ ] 5 - Geometricke algoritmy
