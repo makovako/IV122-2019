@@ -24,7 +24,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 - [ ] 4 - Geometrie, bitmapova grafika
   - [ ] A - Zakladni utvari **NF**
   - [ ] B - Mnohouhelnik **NF** - make explanation in readme
-  - [ ] C - Efekty
+  - [ ] C - Efekty **NF** - make less functions, DRY
   - [ ] D - Skryvacky
 - [ ] 5 - Geometricke algoritmy
   - [ ] A - Prusecniky usecek
