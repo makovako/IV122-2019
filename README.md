@@ -27,7 +27,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] C - Efekty **NF** - make less functions, DRY
   - [ ] D - Skryvacky
 - [ ] 5 - Geometricke algoritmy
-  - [ ] A - Prusecniky usecek
+  - [X] A - Prusecniky usecek
   - [ ] B - Triangulace
   - [ ] C - Konvexni obal
 - [X] 6 - Fraktaly, chaos
