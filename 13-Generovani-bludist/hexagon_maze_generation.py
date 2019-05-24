@@ -131,3 +131,4 @@ def construct_maze(filename,size,length):
     save_maze(filename,maze,edges,length,[(0,0),(size*2 -1,size-1)])
 
 construct_maze("hexagon_maze.svg",20,20)
+construct_maze("hexagon_maze-odd.svg",19,20)

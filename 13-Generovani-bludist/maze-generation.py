@@ -69,7 +69,6 @@ def print_maze(maze):
 
 def save_maze(filename,maze,length,points):
     size = len(maze)
-    maze_size = (size - 1) / 2 
     y_coor = length/2
     vg = vector_graphic(filename,(size+1)/2*length,(size+1)/2*length)
     vg.start()
@@ -106,3 +105,4 @@ def construct_maze(filename,size,length):
     save_maze(filename,drawn_maze,length,[(0,0),(size - 1, size - 1)])      
 
 construct_maze("square_maze.svg",10,20)
+construct_maze("square_maze-odd.svg",9,20)
