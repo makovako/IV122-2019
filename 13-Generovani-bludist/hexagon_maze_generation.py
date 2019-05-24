@@ -128,7 +128,9 @@ def save_maze(filename, maze, edges, length, dots):
 def construct_maze(filename,size,length):
     maze = create_full_maze(size)
     edges = dfs(maze,(0,0))
-    save_maze(filename,maze,edges,length,[(0,0),(size*2 -1,size-1)])
+    index = size*2 -1 if size % 2 == 0 else size*2 -2
+    print(index)
+    save_maze(filename,maze,edges,length,[(0,0),(index ,size-1)])
 
 construct_maze("hexagon_maze.svg",20,20)
 construct_maze("hexagon_maze-odd.svg",19,20)
