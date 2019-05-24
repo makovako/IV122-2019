@@ -52,5 +52,6 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 - [ ] 12 - Grafy a bludiste I
   - [X] A - Ciselne bludiste
   - [ ] B - Vlastne bludiste
+- [ ] 13 - Generovani bludist **NF** - popisat ako to funguje (magiu)
 
 /* NF - started, not finnished
