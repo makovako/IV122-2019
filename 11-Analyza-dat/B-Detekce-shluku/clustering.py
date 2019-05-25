@@ -56,7 +56,7 @@ def kmeans(x,y,k,foldername):
         if not changed:
             break
 
-# sort points based on distance from point
+# sort points based on distance from given point
 def worsen_centroids(x,y,point):
     points = list(zip(x,y)) # make list of pairs
     points.sort(key = lambda p: (p[0] - point[0])**2 + (p[1] - point[1])**2) # distance as function for sort, no sqrt because it doesn't change solution
@@ -81,7 +81,7 @@ def generate_data(points, error, samples):
 
 # default runs
 
-#if you want to create pictures, uncomment for loop generating them
+#if you want to create pictures, uncomment for loops generating them
 # and crete directories for pictures in advance
 
 x,y = read_data("faithful.txt")

@@ -47,8 +47,8 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] C - Centralni limitni veta **NF** - rozmyslet matematicky
   - [ ] D - Bayesova veta **NF** - spisat odhad
 - [X] 11 - Analyza dat
-  - [X] A - Linearni regrese
-  - [X] B - Detekce shluku
+  - [X] A - Linearni regrese **DONE**
+  - [X] B - Detekce shluku **DONE**
 - [ ] 12 - Grafy a bludiste I
   - [X] A - Ciselne bludiste **DONE**
   - [ ] B - Vlastne bludiste
