@@ -36,4 +36,4 @@ Sestuholniky su na vysku
 - stvorcove si davam najskor do textovej podoby a tak ho vykreslujem do svg
 - sestuholnikove som chcel robit podobne, ale vela zbytocneho casu som stravil nad vymyslanim textovej reprezentacie, tak to nakoniec vykreslujem rovno po skonceni dfs, neprevadzam na text
 - obe generovania pracuju nahodnostne
-- podla mna zlozitost bludiska zavysi aj od algoritmu, pretoze dfs robi jendu dlhu cestu, ktoru je lahke nasledovat, velke bludisko vyzera zlozito, najme to sestuholnikove, ale vacsinou bolo jendoduche sa dostat do ciela
+- podla mna zlozitost bludiska zavysi aj od algoritmu, pretoze dfs robi jednu dlhu cestu, ktoru je lahke nasledovat, velke bludisko vyzera zlozito, najme to sestuholnikove, ale vacsinou bolo jendoduche sa dostat do ciela
