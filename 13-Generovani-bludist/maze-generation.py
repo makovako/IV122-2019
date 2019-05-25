@@ -14,15 +14,15 @@ def get_neighbours(vertex, size):
     x,y = vertex
     neighbours = []
     for nx, ny in [(0,-1),(1,0),(0,1),(-1,0)]:
-        if 0 <= x + nx < size and 0 <= y + ny < size:
+        if 0 <= x + nx < size and 0 <= y + ny < size: # if neighbour is in boundries of maze
             neighbours.append((x + nx,y + ny))
-    random.shuffle(neighbours)
+    random.shuffle(neighbours) # shuffle the order of neighbours so dfs will go random path
     return neighbours
 
 def dfs(maze,start):
     size = len(maze)
     stack = []
-    stack.append((start,None))
+    stack.append((start,None)) # pair of vertex to proces and previous one, so i can create edge
     edges = [] # pair of points where the wall should be deleted
     while stack:
         vertex, previous = stack.pop()
@@ -34,20 +34,22 @@ def dfs(maze,start):
                 stack.append((neighbour,vertex))
     return edges
 
-
+# It create lines of string
+# "." - vertex or path
+# "-", "|" - wall
+# "+" - corners
 def draw_maze(maze,edges):
     size = len(maze)
     out = []
-    out.append("".join(["+-" * (size)]+["+"]))
+    out.append("".join(["+-" * (size)]+["+"])) # first line always walls
     for i in range(size):
         line = "|"
         for j in range(size):
             line += "."
             if j < size-1:
-                # edge = (((j,i),(j+1,i)))
-                if ((j,i),(j+1,i)) in edges or ((j+1,i),(j,i)) in edges:
+                if ((j,i),(j+1,i)) in edges or ((j+1,i),(j,i)) in edges: # if there is edge, put path there
                     line += "."
-                else:
+                else: # otherwise wall
                     line += "|"
         line += "|"
         out.append(line)
@@ -67,28 +69,34 @@ def print_maze(maze):
     for line in maze:
         print(line)
 
+# points - list of pairs of indexis where to print circle in maze
+# lenght - size of one side of square in maze
+# maze - drawn maze (list of string lines)
 def save_maze(filename,maze,length,points):
     size = len(maze)
-    y_coor = length/2
+    y = length/2
     vg = vector_graphic(filename,(size+1)/2*length,(size+1)/2*length)
     vg.start()
-    for x in range(0,size,2):
-        x_coor = length/2
-        for y in range(1,size,2):
-            char = maze[x][y]
+    # first draw horizontal lines
+    for i in range(0,size,2):
+        x = length/2
+        for j in range(1,size,2):
+            char = maze[i][j]
             if char == "-":
-                vg.line(x_coor,y_coor,x_coor + length, y_coor)
-            x_coor += length
-        y_coor += length
-    y_coor = length/2
-    for y in range(1,size,2):
-        x_coor = length/2
-        for x in range(0,size,2):
-            char = maze[y][x]
+                vg.line(x,y,x + length, y)
+            x += length
+        y += length
+    y = length/2
+    # then draw vertical lines
+    for i in range(1,size,2):
+        x = length/2
+        for j in range(0,size,2):
+            char = maze[i][j]
             if char == "|":
-                vg.line(x_coor,y_coor,x_coor,y_coor + length)
-            x_coor += length
-        y_coor += length
+                vg.line(x,y,x,y + length)
+            x += length
+        y += length
+    # print given points as circes
     for point in points:
         x,y = point
         x *= length
@@ -97,7 +105,8 @@ def save_maze(filename,maze,length,points):
         y += length
         vg.circle(x,y,length / 3,fill="black")
     vg.stop()
-    
+
+# helper method to easily print some maze
 def construct_maze(filename,size,length):
     maze = create_full_maze(size)
     edges = dfs(maze, (0,0))
