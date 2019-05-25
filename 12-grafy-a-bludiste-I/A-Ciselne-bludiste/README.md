@@ -21,6 +21,6 @@
 
 ![Bludisko 4](maze4.png)
 
-## Vlastne bludisko, same jendotky
+## Vlastne bludisko, same jednotky
 
 ![Vlastne bludisko](maze_custom.png)
