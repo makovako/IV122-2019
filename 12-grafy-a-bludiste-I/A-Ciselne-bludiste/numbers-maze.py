@@ -19,7 +19,7 @@ def read_file(filename):
     return mazes
 
 def solve_maze(maze):
-    # queue stores a pait
+    # queue stores a pair
     # first element is point to analyze
     # second element is list of points, how we got to current point
     q = queue.Queue()

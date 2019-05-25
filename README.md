@@ -50,7 +50,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [X] A - Linearni regrese
   - [X] B - Detekce shluku
 - [ ] 12 - Grafy a bludiste I
-  - [X] A - Ciselne bludiste
+  - [X] A - Ciselne bludiste **DONE**
   - [ ] B - Vlastne bludiste
 - [X] 13 - Generovani bludist **DONE**
 
