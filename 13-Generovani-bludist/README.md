@@ -10,12 +10,15 @@
 
 ### Indexovanie
 
-Normalne dvojrozmerne pole, ktore je dvakrat sirsie ako dlhsie
+Dvojrozmerne pole, ktore je dvakrat sirsie ako dlhsie
 
-| 1 |   | 2 |   | 3 |   |
-|---|---|---|---|---|---|
-|   | 4 |   | 5 |   | 6 |
-| 7 |   | 8 |   | 9 |   |
+Riadok sestuholnikov ktory je odsadeny je odsadeny aj na obrazku (riadky s neparnym (odd) indexom)
+
+|*indexy*| *0* | *1* | *2* | *3* | *4* | *5* |
+|---|---|---|---|---|---|---|
+|*0*| 1 |   | 2 |   | 3 |   |
+|*1*|   | 4 |   | 5 |   | 6 |
+|*2*| 7 |   | 8 |   | 9 |   |
 
 ### Susedia
 
