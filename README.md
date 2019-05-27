@@ -3,13 +3,34 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 
 # Presentation / Review
 
-Tasks which are checked out are finnished. There shoud be readme in corresponding folders for pictures.
+V jednotlivych zlozkach pre dane tyzdne sa nachadzaju readme subory, ktore by mal github defaultne zobrazit. Su tam obrazky a popisky rieseni, pokial nieco nestacilo vysvetlit v kode.
 
-# Silné stránky
+## Silné stránky
 
-# Slabé stránky
+- l systemy
+- analyza dat - linearna regrese, detekce shluku
+- newtonova, julianova mnozina
+- efekty bitmapova grafika
+- chaos game
 
-# Nespravené úlohy
+## Co ma este bavilo
+
+- generovanie sestuholnikoveho bludiska
+- riesenie ciselneho bludiska
+- zelvi grafika bola zaujimava
+
+## Slabé stránky
+
+Niektore ulohy nemam kompletne dokoncene
+
+- zakladne utvary bitmapova grafika
+- fraktaly zelvi grafika
+
+Moze sa stat ze kod/readme bude dvojjazycne (slovencina/anglictina). Snazil som sa pisat kod v anglictine. Ak som niekde pisal dhsie vysvetlenie, napisal som ho v slovencine.
+
+Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podarilo dokoncit iba priesecniky useciek.
+
+## Nespravené úlohy
 
 - vizualizace nsd
 - umocnovani
@@ -23,33 +44,33 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 # TODO
 
 - [ ] 1 - Rozcvicka **DONE**
-  - [X] A - Hratky s cisly
-  - [X] B - Prace s grafikou
-  - [X] C - Ulamova spirala
+  - [X] A - Hratky s cisly **DONE**
+  - [X] B - Prace s grafikou **DONE**
+  - [X] C - Ulamova spirala **DONE**
   - [ ] D - Vizualizace nsd
 - [ ] 2 - Kombinatorika - vypocty **DONE**
-  - [X] A - Kombinace, permutace, variace
-  - [X] B - Pascalov trojuholnik
-  - [X] C - Vypocet pi
+  - [X] A - Kombinace, permutace, variace **DONE**
+  - [X] B - Pascalov trojuholnik **DONE**
+  - [X] C - Vypocet pi **DONE**
   - [ ] D - Umocnovani
 - [ ] 3 - Geometrie, zelvi grafika **DONE**
-  - [X] A - Zelvi grafika
-  - [X] B - Relativne, absolutne
-  - [ ] C - Zelvi grafika, fraktaly **NF**
+  - [X] A - Zelvi grafika **DONE**
+  - [X] B - Relativne, absolutne **DONE**
+  - [ ] C - Zelvi grafika, fraktaly **NF** **DONE**
   - [ ] D - Kreativita zelvy
 - [ ] 4 - Geometrie, bitmapova grafika **DONE**
-  - [ ] A - Zakladni utvari **NF**
-  - [X] B - Mnohouhelnik
-  - [X] C - Efekty
+  - [ ] A - Zakladni utvari **NF** **DONE**
+  - [X] B - Mnohouhelnik **DONE**
+  - [X] C - Efekty **DONE**
   - [ ] D - Skryvacky
 - [ ] 5 - Geometricke algoritmy **DONE**
-  - [X] A - Prusecniky usecek
+  - [X] A - Prusecniky usecek **DONE**
   - [ ] B - Triangulace
   - [ ] C - Konvexni obal
 - [X] 6 - Fraktaly, chaos **DONE**
-  - [X] A - Chaos game
-  - [X] B - Feigenbaumuv diagram
-  - [X] C - L - systemy
+  - [X] A - Chaos game **DONE**
+  - [X] B - Feigenbaumuv diagram **DONE**
+  - [X] C - L - systemy **DONE**
 - [X] 7 - Fraktaly, komplexni cisla
   - [X] Newton
   - [X] Mandelbrot
@@ -62,10 +83,10 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] B - Nenahodna cisla **NF** - ostali 2 na vyber
   - [ ] C - Centralni limitni veta **NF** - rozmyslet matematicky
   - [ ] D - Bayesova veta **NF** - spisat odhad
-- [X] 11 - Analyza dat
+- [X] 11 - Analyza dat **DONE**
   - [X] A - Linearni regrese **DONE**
   - [X] B - Detekce shluku **DONE**
-- [ ] 12 - Grafy a bludiste I
+- [ ] 12 - Grafy a bludiste I **DONE**
   - [X] A - Ciselne bludiste **DONE**
   - [ ] B - Vlastne bludiste
 - [X] 13 - Generovani bludist **DONE**
@@ -78,6 +99,3 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 
 - krativita zelvy
 - fraktaly pomocou zelvy
-
-- silne stranky
-- slabe stranky
