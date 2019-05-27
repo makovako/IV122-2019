@@ -41,7 +41,7 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
 - MRCM
 - vlastne bludiste
 
-# TODO
+# Prehlad uloh
 
 - [ ] 1 - Rozcvicka **DONE**
   - [X] A - Hratky s cisly **DONE**
@@ -78,11 +78,11 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
 - [ ] 8 - Transformace v rovine **DONE**
   - [X] Afinni transformace **DONE**
   - [ ] MRCM
-- [ ] 9 - Pravdepodobnost
-  - [X] A - Monty Hall
-  - [ ] B - Nenahodna cisla **NF** - ostali 2 na vyber
-  - [ ] C - Centralni limitni veta **NF** - rozmyslet matematicky
-  - [ ] D - Bayesova veta **NF** - spisat odhad
+- [X] 9 - Pravdepodobnost
+  - [X] A - Monty Hall **DONE**
+  - [X] B - Nenahodna cisla **DONE**
+  - [X] C - Centralni limitni veta **DONE**
+  - [X] D - Bayesova veta **DONE**
 - [X] 11 - Analyza dat **DONE**
   - [X] A - Linearni regrese **DONE**
   - [X] B - Detekce shluku **DONE**
@@ -95,8 +95,8 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
 
 /* DONE - completely finnished
 
-## Evening todos
+<!-- ## Evening todos
 
 - krativita zelvy
 - fraktaly pomocou zelvy
-- vlastne transformace v rovine
+- vlastne transformace v rovine -->
