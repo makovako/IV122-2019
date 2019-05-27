@@ -1,7 +1,7 @@
 # Zelvi grafika
 
 ![Polygons](A-zelvi-grafika/polygons.svg)
-![Stars](A-A-zelvi-grafika/stars.svg)
+![Stars](A-zelvi-grafika/stars.svg)
 
 # Relativne, absolutne
 
