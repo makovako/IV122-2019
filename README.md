@@ -71,10 +71,10 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
   - [X] A - Chaos game **DONE**
   - [X] B - Feigenbaumuv diagram **DONE**
   - [X] C - L - systemy **DONE**
-- [X] 7 - Fraktaly, komplexni cisla
-  - [X] Newton
-  - [X] Mandelbrot
-  - [X] Julian
+- [X] 7 - Fraktaly, komplexni cisla **DONE**
+  - [X] Newton **DONE**
+  - [X] Mandelbrot **DONE**
+  - [X] Julian **Done**
 - [ ] 8 - Transformace v rovine
   - [X] Afinni transformace
   - [ ] MRCM
