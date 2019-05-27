@@ -75,8 +75,8 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
   - [X] Newton **DONE**
   - [X] Mandelbrot **DONE**
   - [X] Julian **Done**
-- [ ] 8 - Transformace v rovine
-  - [X] Afinni transformace
+- [ ] 8 - Transformace v rovine **DONE**
+  - [X] Afinni transformace **DONE**
   - [ ] MRCM
 - [ ] 9 - Pravdepodobnost
   - [X] A - Monty Hall
@@ -99,3 +99,4 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
 
 - krativita zelvy
 - fraktaly pomocou zelvy
+- vlastne transformace v rovine
