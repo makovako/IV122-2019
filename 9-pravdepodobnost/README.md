@@ -2,6 +2,10 @@
 
 ![montyhall](A-Monty-Hall/Screenshot_20190505_101427.png)
 
+- pre zmenu dveri vysla pravdepodobnost uspechu 66%
+- pre moznost nemenit volbu pravdepodobnost uspechu je 33%
+- pri nahodnom rozhodnuti je to 50%
+
 # Nenahodna cisla
 
 Pocetnost:
@@ -73,7 +77,7 @@ Dalej porovnam dvojice dvoch po sebe iducich cisel a ich pocty.
 
 # Bayesova veta
 
-- vypocet je prilozeny v [pdf](9-pravdepodobnost/D-Bayesova-veta/IV122__vypocet_bayesova_veta.pdf)
+- vypocet je prilozeny v [pdf](https://github.com/makovako/IV122-2019/blob/master/9-pravdepodobnost/D-Bayesova-veta/IV122__vypocet_bayesova_veta.pdf)
 
 ## n = 10, x = 5
 
