@@ -102,7 +102,7 @@ def polygon_fill(filename,points,size):
                         im.putpixel((x,y),BLACK)
                         break
                     continue
-                s = a[0] + vector[0]*((y-a[1])/vector[1]) # explanation in readme # TODO make readme
+                s = a[0] + vector[0]*((y-a[1])/vector[1]) # explanation in readme
                 if x < s and ((y < a[1]) != (y < a[1] + vector[1])):
                     intersect += 1
             if intersect % 2 == 1:

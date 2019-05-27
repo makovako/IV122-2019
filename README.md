@@ -5,6 +5,21 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 
 Tasks which are checked out are finnished. There shoud be readme in corresponding folders for pictures.
 
+# Silné stránky
+
+# Slabé stránky
+
+# Nespravené úlohy
+
+- vizualizace nsd
+- umocnovani
+- kreativita zelvy
+- skryvacky
+- triangulace
+- konvexni obal
+- MRCM
+- vlastne bludiste
+
 # TODO
 
 - [ ] 1 - Rozcvicka **DONE**
@@ -24,8 +39,8 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [ ] D - Kreativita zelvy
 - [ ] 4 - Geometrie, bitmapova grafika
   - [ ] A - Zakladni utvari **NF**
-  - [ ] B - Mnohouhelnik **NF** - make explanation in readme
-  - [ ] C - Efekty **NF** - make less functions, DRY
+  - [X] B - Mnohouhelnik
+  - [X] C - Efekty
   - [ ] D - Skryvacky
 - [ ] 5 - Geometricke algoritmy
   - [X] A - Prusecniky usecek
@@ -63,3 +78,6 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 
 - krativita zelvy
 - fraktaly pomocou zelvy
+
+- silne stranky
+- slabe stranky
