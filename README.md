@@ -46,7 +46,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [X] A - Prusecniky usecek
   - [ ] B - Triangulace
   - [ ] C - Konvexni obal
-- [X] 6 - Fraktaly, chaos
+- [X] 6 - Fraktaly, chaos **DONE**
   - [X] A - Chaos game
   - [X] B - Feigenbaumuv diagram
   - [X] C - L - systemy
