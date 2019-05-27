@@ -42,7 +42,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [X] B - Mnohouhelnik
   - [X] C - Efekty
   - [ ] D - Skryvacky
-- [ ] 5 - Geometricke algoritmy
+- [ ] 5 - Geometricke algoritmy **DONE**
   - [X] A - Prusecniky usecek
   - [ ] B - Triangulace
   - [ ] C - Konvexni obal
