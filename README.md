@@ -6,12 +6,13 @@ Repository for Homeworks for subject IV122 Math and Programing in spring 2019, M
 Tasks which are checked out are finnished. There shoud be readme in corresponding folders for pictures.
 
 # TODO
+
 - [ ] 1 - Rozcvicka **DONE**
   - [X] A - Hratky s cisly
   - [X] B - Prace s grafikou
   - [X] C - Ulamova spirala
   - [ ] D - Vizualizace nsd
-- [ ] 2 - Kombinatorika - vypocty
+- [ ] 2 - Kombinatorika - vypocty **DONE**
   - [X] A - Kombinace, permutace, variace
   - [X] B - Pascalov trojuholnik
   - [X] C - Vypocet pi
