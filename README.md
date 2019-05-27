@@ -37,7 +37,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [X] B - Relativne, absolutne
   - [ ] C - Zelvi grafika, fraktaly **NF**
   - [ ] D - Kreativita zelvy
-- [ ] 4 - Geometrie, bitmapova grafika
+- [ ] 4 - Geometrie, bitmapova grafika **DONE**
   - [ ] A - Zakladni utvari **NF**
   - [X] B - Mnohouhelnik
   - [X] C - Efekty

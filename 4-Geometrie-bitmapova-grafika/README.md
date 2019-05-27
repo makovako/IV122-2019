@@ -20,7 +20,7 @@
 
 ![square](B-mnohouhelnik/square.png)
 
-## Explanation
+## Vysvetlenie
 
 Vela pokusov kym sa mi to podarilo sfinalizovat, oznaceny kod sa nepouziva, no nemazal som ho.
 
@@ -52,7 +52,7 @@ z druhej vyjadrim t a dostanem
 
 x - s = Ax + Vx * (y - Ay)/Vy
 
-na tom magickom riadku si vypocitam s a porovnam s x, ci priesecnik lezi na usecke.
+na tom magickom riadku si vypocitam s a porovnam s x a y, ci priesecnik lezi na usecke.
 
 # Efekty
 
