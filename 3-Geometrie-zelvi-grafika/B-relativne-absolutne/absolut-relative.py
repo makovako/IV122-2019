@@ -9,16 +9,12 @@ def pentagon_absolut():
     points = []
     zoom = 100
     move = 100
-    c1 = cos(2*pi/5)
-    c2 = cos(pi/5)
-    s1 = sin(2*pi/5)
-    s2 = sin(4*pi/5)
-
-    points.append((0*zoom+move,1*zoom+move))
-    points.append((-s1*zoom+move,c1*zoom+move))
-    points.append((-s2*zoom+move,-c2*zoom+move))
-    points.append((s2*zoom+move,-c2*zoom+move))
-    points.append((s1*zoom+move,c1*zoom+move))
+    polygon = 5
+    angle = radians(360 / polygon)
+    for i in range(polygon):
+        x = cos(angle*i)
+        y = sin(angle*i)
+        points.append((x*zoom+move,y*zoom+move))
 
     vg = vector_graphic("pentagon_absolut.svg",200,200)
     vg.start()
