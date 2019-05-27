@@ -17,7 +17,7 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
   - [X] B - Pascalov trojuholnik
   - [X] C - Vypocet pi
   - [ ] D - Umocnovani
-- [ ] 3 - Geometrie, zelvi grafika
+- [ ] 3 - Geometrie, zelvi grafika **DONE**
   - [X] A - Zelvi grafika
   - [X] B - Relativne, absolutne
   - [ ] C - Zelvi grafika, fraktaly **NF**
@@ -58,3 +58,8 @@ Tasks which are checked out are finnished. There shoud be readme in correspondin
 /* NF - started, not finnished
 
 /* DONE - completely finnished
+
+## Evening todos
+
+- krativita zelvy
+- fraktaly pomocou zelvy
