@@ -93,7 +93,7 @@ Taktiez som sa dlhsie babral s Geometrickymi algoritmami, nakoniec sa mi podaril
 
 /* NF - started, not finnished
 
-/* DONE - completely finnished
+/* DONE - finnished presentation/readme
 
 <!-- ## Evening todos
 
